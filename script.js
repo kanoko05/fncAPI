@@ -24,7 +24,7 @@ const app = new Vue({
       };
       
       //INSERT用のAPIを呼び出し
-      const response = await axios.post('https://https://m3h-saito-functionapi.azurewebsites.net/api/INSERT',param);
+      const response = await axios.post('https://m3h-saito-functionapi.azurewebsites.net/api/INSERT',param);
       
       //結果をコンソールに出力
       console.log(response.data);
